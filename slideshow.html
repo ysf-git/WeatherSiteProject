@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow - Istanbul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Weather in Türkiye</h2>
+        <p class="subtitle">Get current and forecast weather for Turkish cities.</p>
+
+        <button id="back-to-homepage-btn" class="back-button">← Homepage</button>
+
+        <div id="city-slideshow-section" style="display: block; margin-top: 20px; padding-top: 0; border-top: none;">
+             <h4>Photos of Istanbul</h4>
+             <div class="slideshow-container">
+                 <div class="slideshow-images">
+                 </div>
+                 <button class="slideshow-arrow prev" aria-label="Previous Slide">←</button>
+                 <button class="slideshow-arrow next" aria-label="Next Slide">→</button>
+                 <div class="slideshow-dots">
+                 </div>
+             </div>
+        </div>
+
+         <div class="feedback-link-section" style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee;">
+            <p><a href="feedback.html">Provide Feedback</a></p>
+        </div>
+
+
+    </div>
+
+    <script src="slideshow.js"></script>
+</body>
+</html>
